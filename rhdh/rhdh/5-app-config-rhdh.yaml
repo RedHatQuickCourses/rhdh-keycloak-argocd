@@ -20,16 +20,6 @@ data:
       reading:
         allow:
           - host: raw.githubusercontent.com
-
-      # GitHub token support for backend operations (used by scaffolder)
-      integrations:
-        github:
-          - host: github.com
-            token: ${GITHUB_TOKEN}
-    integrations:
-      github:
-        - host: github.com
-          token: ${GITHUB_TOKEN}
     auth:
       environment: production
       session:
